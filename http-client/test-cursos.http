@@ -18,3 +18,12 @@ Content-Type: application/json
     "nombre": "Algebra",
     "duracion": 10
 }
+
+###
+PUT {{host}}/cursos/1 HTTP/1.1
+Content-Type: application/json
+
+{    
+    "nombre": "Geometría",
+    "duracion": 15
+}

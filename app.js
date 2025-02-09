@@ -83,6 +83,7 @@ app.put('/cursos/:id', (req, res) => {
 
     // Actualizamos los datos del curso
     cursos[index].nombre = cursoActualizado.nombre;
+    cursos[index].duracion = cursoActualizado.duracion;
 
     // Respondemos con el curso actualizado
     res.json(cursos[index]);
