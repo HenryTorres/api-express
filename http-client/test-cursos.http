@@ -14,9 +14,9 @@ POST {{host}}/cursos HTTP/1.1
 Content-Type: application/json
 
 {
-    "id": 4,
-    "nombre": "Algebra",
-    "duracion": 10
+    "id": 2,
+    "nombre": "Trigonometia",
+    "duracion": 5
 }
 
 ###
@@ -27,3 +27,7 @@ Content-Type: application/json
     "nombre": "Geometría",
     "duracion": 15
 }
+
+###
+DELETE {{host}}/cursos/2 HTTP/1.1
+Content-Type: application/json
