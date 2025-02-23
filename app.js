@@ -15,9 +15,9 @@ const port = 3000;
 //Configuramos express para que pueda recibir datos en formato JSON
 app.use(express.json());
 
-//Configuramos el ruteador para los cursos
-app.use('/cursos', cursosRouter);
-app.use('/profesores', profesorRouter);
+//Configuramos el ruteador
+app.use('/courses', cursosRouter);
+app.use('/teachers', profesorRouter);
 
 //Ponemos el servidor a escuchar en el puerto y host definido
 app.listen(port, host, () => {

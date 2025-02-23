@@ -2,15 +2,15 @@
 GET {{host}} HTTP/1.1
 
 ###
-GET {{host}}/cursos HTTP/1.1
+GET {{host}}/courses HTTP/1.1
 Accept: application/json
 
 ###
-GET {{host}}/cursos/1 HTTP/1.1
+GET {{host}}/courses/5 HTTP/1.1
 Accept: application/json
 
 ###
-POST {{host}}/cursos HTTP/1.1
+POST {{host}}/courses HTTP/1.1
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 }
 
 ###
-PUT {{host}}/cursos/1 HTTP/1.1
+PUT {{host}}/courses/1 HTTP/1.1
 Content-Type: application/json
 
 {    
@@ -29,5 +29,5 @@ Content-Type: application/json
 }
 
 ###
-DELETE {{host}}/cursos/2 HTTP/1.1
+DELETE {{host}}/courses/3 HTTP/1.1
 Content-Type: application/json
