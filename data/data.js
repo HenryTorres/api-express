@@ -1,6 +1,8 @@
 export let cursos = [
-    { id: 1, nombre: 'Matemáticas', duracion: 40 },
-    { id: 2, nombre: 'Lenguaje', duracion: 20 }
+    { id: 1, nombre: 'Fundamentos de Programación', duracion: 40 },
+    { id: 2, nombre: 'Diseño de Base de Datos', duracion: 20 },
+    { id: 3, nombre: 'Programación orientada o objetos', duracion: 40 },
+    { id: 4, nombre: 'Diseño de páginas web', duracion: 20 },
 ]
 
 export let profesores = [
