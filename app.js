@@ -1,4 +1,6 @@
 import express from 'express';
+import 'dotenv/config';
+
 import { cursos } from './data/data.js';
 import cursosRouter from './routes/cursos-router.js'
 import profesorRouter from './routes/profesor-router.js';
@@ -7,10 +9,10 @@ import profesorRouter from './routes/profesor-router.js';
 const app = express();
 
 //Definimos el dominio de la API
-const host = '127.0.0.1';
+const host = process.env.HOST;
 
 //Definimos el puerto de la API
-const port = 3000;
+const port = process.env.PORT;
 
 //Configuramos express para que pueda recibir datos en formato JSON
 app.use(express.json());
