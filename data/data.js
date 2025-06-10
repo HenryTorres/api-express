@@ -7,5 +7,6 @@ export let cursos = [
 
 export let profesores = [
     { id: 1, nombre: 'Henry', especialidad: 'Desarrollador de Software' },
-    { id: 2, nombre: 'Mengano', especialidad: 'Analista de Sistemas' }
+    { id: 2, nombre: 'Giovanna', especialidad: 'Analista de Sistemas' },
+    { id: 3, nombre: 'Esdras', especialidad: 'Ingeniero de Software' },
 ]
